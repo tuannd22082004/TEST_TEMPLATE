@@ -1,0 +1,47 @@
+@keyframes joom_in_out {
+  0% {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+.banner-section {
+  background: url(/images/banner-bg.jpg?428208e1da86a4e811cf596574b56c67) center/cover no-repeat;
+}
+.banner-section .banner-thumb {
+  left: calc(50% + 90px);
+}
+.banner-section .banner-thumb__shape {
+  content: "";
+  transform: translate(-50%, -50%);
+  animation: joom_in_out 3s alternate infinite;
+  -webkit-animation: joom_in_out 3s alternate infinite;
+  -moz-animation: joom_in_out 3s alternate infinite;
+}
+.banner-section .banner-thumb__shape--first {
+  width: 809px;
+  height: 809px;
+}
+.banner-section .banner-thumb__shape--second {
+  width: 700px;
+  height: 700px;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+}
+.banner-section .banner-thumb__shape--third {
+  width: 591px;
+  height: 591px;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+}
+
+.counter-section {
+  background: url(/images/counter-bg.jpg?34a0cea575cab93e48a81b6e0b900048) center/cover no-repeat;
+}
+
+.sponsor-section .sponsor-swiper {
+  height: 50px;
+}
