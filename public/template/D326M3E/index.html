@@ -1,0 +1,2103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Eduac - Online Education HTML Template</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./dist/css/global.css" />
+    <link rel="stylesheet" href="./dist/css/common.css" />
+    <link rel="stylesheet" href="./dist/css/home-v1.css" />
+
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+</head>
+
+
+<body>
+    <a href="./PPPPPP/index.html"></a>
+    <a href="./D326M3E/index.html"></a>
+    <button class="go-top position-fixed rounded-3 bg-color-1 text-center fs-6 p-1 border-color-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ffffff"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-up">
+            <path d="m18 15-6-6-6 6" />
+        </svg>
+    </button>
+    <header class="header py-3 container-fluid px-1 px-lg-5">
+        <div class="row">
+            <div class="col-10 col-sm-11 col-xxl-8 d-flex justify-content-between align-items-center h-100">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img class="img-fluid object-fit-cover" src="./assets/images/logo/logo.png" alt="logo">
+                    </a>
+                </div>
+                <ul
+                    class="header__menu menu d-none d-lg-flex flex-wrap justify-content-between align-items-center list-unstyled gap-3 mb-0">
+                    <li class="dropdown">
+                        <a class="color-5 fw-5 p-2 text-capitalize dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu bg-color-5 rounded-1 p-0">
+                            <li><a class="dropdown-item color-6" href="#">Home 1</a></li>
+                            <li><a class="dropdown-item color-6" href="#">Home 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="d-flex">
+                        <a class="header__menu__link position-relative color-5 fw-5 p-2 text-capitalize"
+                            href="./about.html">About
+                            Us</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="color-5 fw-5 p-2 text-capitalize dropdown-toggle" href="#0" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Courses
+                        </a>
+                        <ul class="dropdown-menu bg-color-5 rounded-1 p-0">
+                            <li><a class="dropdown-item color-6" href="./courses.html">Courses</a></li>
+                            <li><a class="dropdown-item color-6" href="./course-details.html">Course Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="color-5 fw-5 p-2 text-capitalize dropdown-toggle" href="#0" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu bg-color-5 rounded-1 p-0">
+                            <li><a class="dropdown-item color-6" href="./instructor.html">Instructor</a></li>
+                            <li><a class="dropdown-item color-6" href="./gallery.html">Gallery</a></li>
+                            <li><a class="dropdown-item color-6" href="./events.html">Event</a></li>
+                            <li><a class="dropdown-item color-6" href="./upcoming-events.html">Upcoming Events</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="header__menu__link position-relative color-5 fw-5 p-2 text-capitalize dropdown-toggle"
+                            href="#0" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu bg-color-5 rounded-1 p-0">
+                            <li><a class="dropdown-item color-6" href="./blog.html">Blogs</a></li>
+                            <li><a class="dropdown-item color-6" href="./blog-details.html">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="d-flex">
+                        <a class="header__menu__link position-relative color-5 fw-5 p-2 text-capitalize"
+                            href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-2 col-sm-1 d-flex col-xxl-4  justify-content-end align-items-center gap-2">
+                <div class="header-bar pe-auto ms-auto d-flex align-items-center d-xxl-none ml-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-menu">
+                        <line x1="4" x2="20" y1="12" y2="12" />
+                        <line x1="4" x2="20" y1="6" y2="6" />
+                        <line x1="4" x2="20" y1="18" y2="18" />
+                    </svg>
+                </div>
+                <form class="course-search-form position-relative d-none d-xxl-block">
+                    <div
+                        class="position-absolute dropdown h-100 z-3 start-0 top-50 translate-middle-y p-2 d-flex align-items-center">
+                        <a class="dropdown-toggle rounded-5 dropdown-bar border-color-3 color-3 p-2" href="#"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Category
+                        </a>
+                        <ul class="dropdown-menu top-100">
+                            <li><a class="dropdown-item" href="#">Category</a></li>
+                            <li><a class="dropdown-item" href="#">Physics</a></li>
+                            <li><a class="dropdown-item" href="#">Chemistry</a></li>
+                            <li><a class="dropdown-item" href="#">History</a></li>
+                            <li><a class="dropdown-item" href="#">Geometry</a></li>
+                            <li><a class="dropdown-item" href="#">LoremIp</a></li>
+                            <li><a class="dropdown-item" href="#">UI/UX</a></li>
+                            <li><a class="dropdown-item" href="#">Laravel</a></li>
+                        </ul>
+                    </div>
+                    <div
+                        class="course-search-form__content rounded-pill position-relative w-100 ps-5 border-color-7 color-5 py-3">
+                        <input type="text" name="name" placeholder="Search Courses" class="mx-5 ps-4">
+                    </div>
+
+                    <div class="position-absolute z-3 end-0 top-50 translate-middle-y p-2">
+                        <button type="submit" class="rounded-5 bg-color-5 position-relative p-2 d-flex"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-search">
+                                <circle cx="11" cy="11" r="8" />
+                                <path d="m21 21-4.3-4.3" />
+                            </svg></button>
+                    </div>
+                </form>
+                <a href="#0"
+                    class="custom-button custom-button--primary w-fit d-none d-xxl-flex justify-content-center align-items-center text-uppercase fw-3 fs-6 rounded-pill py-3 px-4"><i
+                        class="fas fa-user"></i><span class="d-block">Sign Up</span></a>
+            </div>
+        </div>
+    </header>
+    <div
+        class="mobile d-block d-xl-none position-fixed top-0 start-0 w-100 h-100 overflow-auto bg-color-5 pt-5 pb-3 px-1 px-sm-5">
+        <div class="position-relative h-100 pt-5 px-4 d-flex flex-wrap justify-content-center align-items-center">
+            <button
+                class="close-mobile-menu position-absolute top-0 end-0 text-center border-color-5 rounded-3 p-1 mb-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-x color-1">
+                    <path d="M18 6 6 18" />
+                    <path d="m6 6 12 12" />
+                </svg>
+            </button>
+            <div class="w-100">
+                <form class="course-search-form position-relative d-block d-xxl-none w-100">
+                    <div class="position-absolute dropdown h-100 z-3 start-0 top-50 translate-middle-y">
+                        <div class="position-relative p-2 d-flex align-items-center">
+                            <a class="dropdown-toggle rounded-5 dropdown-bar border-color-3 color-3 p-2" href="#"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Category
+                            </a>
+                            <ul class="dropdown-menu top-100">
+                                <li><a class="dropdown-item" href="#">Category</a></li>
+                                <li><a class="dropdown-item" href="#">Physics</a></li>
+                                <li><a class="dropdown-item" href="#">Chemistry</a></li>
+                                <li><a class="dropdown-item" href="#">History</a></li>
+                                <li><a class="dropdown-item" href="#">Geometry</a></li>
+                                <li><a class="dropdown-item" href="#">LoremIp</a></li>
+                                <li><a class="dropdown-item" href="#">UI/UX</a></li>
+                                <li><a class="dropdown-item" href="#">Laravel</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div
+                        class="course-search-form__content rounded-pill position-relative w-100 ps-5 bg-color-8 border-color-7 color-5 py-3">
+                        <input type="text" name="name" placeholder="Search Courses" class="mx-5 ps-4">
+                    </div>
+                    <div class="position-absolute z-3 end-0 top-50 translate-middle-y p-2">
+                        <button type="submit" class="rounded-5 bg-color-5 position-relative p-2 d-flex"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-search">
+                                <circle cx="11" cy="11" r="8" />
+                                <path d="m21 21-4.3-4.3" />
+                            </svg></button>
+                    </div>
+                </form>
+                <div class="d-flex justify-content-center mt-2">
+                    <a href="#0"
+                        class="custom-button w-auto custom-button--primary d-block d-xl-none text-uppercase px-4 py-3 fw-3 fs-6 rounded-pill"><i
+                            class="fas fa-user"></i><span>Sign Up</span></a>
+                </div>
+                <div class="w-100">
+                    <ul
+                        class="menu d-flex d-lg-none flex-column justify-content-between align-items-center list-unstyled gap-3">
+                        <li class="dropdown-center py-2">
+                            <a class="color-6 fw-5 text-capitalize dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Home
+                            </a>
+                            <ul
+                                class="dropdown-menu start-50 translate-middle-x top-100 bg-color-5 rounded-1 p-0 border">
+                                <li><a class="dropdown-item color-6" href="#">Home 1</a></li>
+                                <li><a class="dropdown-item color-6" href="#">Home 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="d-flex py-2">
+                            <a class="color-6 header__menu__link position-relative fw-5 text-capitalize"
+                                href="./about.html">About
+                                Us</a>
+                        </li>
+                        <li class="dropdown-center py-2">
+                            <a class="color-6 fw-5 text-capitalize dropdown-toggle" href="#0" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Courses
+                            </a>
+                            <ul
+                                class="dropdown-menu start-50 translate-middle-x top-100 bg-color-5 rounded-1 p-0 border">
+                                <li><a class="dropdown-item color-6" href="./courses.html">Courses</a></li>
+                                <li><a class="dropdown-item color-6" href="./course-details.html">Course Details</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-center py-2">
+                            <a class="color-6 fw-5 text-capitalize dropdown-toggle" href="#0" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul
+                                class="dropdown-menu start-50 translate-middle-x top-100 bg-color-5 rounded-1 p-0 border">
+                                <li><a class="dropdown-item color-6" href="./instructor.html">Instructor</a></li>
+                                <li><a class="dropdown-item color-6" href="./gallery.html">Gallery</a></li>
+                                <li><a class="dropdown-item color-6" href="./events.html">Event</a></li>
+                                <li><a class="dropdown-item color-6" href="./upcoming-events.html">Upcoming Events</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-center py-2">
+                            <a class="header__menu__link color-6 position-relative fw-5 text-capitalize dropdown-toggle"
+                                href="#0" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul
+                                class="dropdown-menu start-50 translate-middle-x top-100 bg-color-5 rounded-1 p-0 border">
+                                <li><a class="dropdown-item color-6" href="./blog.html">Blogs</a></li>
+                                <li><a class="dropdown-item color-6" href="./blog-details.html">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="d-flex py-2">
+                            <a class="header__menu__link color-6 position-relative fw-5 text-capitalize"
+                                href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="banner-section container-fluid position-relative overflow-hidden pt-5 pe-5  bg-color-8">
+        <div class="bg-color-5 opacity-75 position-absolute top-0 start-0 w-100 h-100"></div>
+        <div class="row pt-5">
+            <div class="col-12 col-xl-7 d-flex justify-content-center align-items-center px-1 px-sm-5">
+                <div class="px-1 px-sm-5 position-relative">
+                    <h3 class=" fs-2 text-uppercase color-1 mb-2">Looking to Explore</h3>
+                    <h1 class=" fs-1 text-uppercase mb-4 color-6">Your Knowledge</h1>
+                    <p class="mb-5 color-7">Donec quis fermentum metus. Fusce nec eleifend urna. Sed id placerat erat.
+                        Aenean congue, metus
+                        sit
+                        amet sagittis tincidunt, augue odio vulputate meg ipsum dolor sit amet, consectetur ad.</p>
+                    <div class="d-flex gap-3">
+                        <a href="courses.html"
+                            class="custom-button custom-button--primary d-none d-xl-block text-uppercase d-inline-block fw-3 fs-6 rounded-pill py-3 px-5 d-flex align-items-center gap-1">view
+                            courses<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-play">
+                                <polygon points="6 3 20 12 6 21 6 3" />
+                            </svg></a>
+                        <a href="#apply"
+                            class="custom-button custom-button--secondary d-none d-xl-block text-uppercase d-inline-block fw-3 fs-6 py-3 px-5 rounded-pill d-flex align-items-center gap-1">Apply
+                            now<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-mouse-pointer-click">
+                                <path d="M14 4.1 12 6" />
+                                <path d="m5.1 8-2.9-.8" />
+                                <path d="m6 12-1.9 2" />
+                                <path d="M7.2 2.2 8 5.1" />
+                                <path
+                                    d="M9.037 9.69a.498.498 0 0 1 .653-.653l11 4.5a.5.5 0 0 1-.074.949l-4.349 1.041a1 1 0 0 0-.74.739l-1.04 4.35a.5.5 0 0 1-.95.074z" />
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-5 d-none d-xl-block">
+                <div class="banner-thumb position-absolute top-50 end-0 d-none d-lg-block">
+                    <div
+                        class="banner-thumb__shape banner-thumb__shape--first position-absolute start-50 top-50 rounded-circle bg-color-7">
+                    </div>
+                    <div
+                        class="banner-thumb__shape banner-thumb__shape--second position-absolute start-50 top-50 rounded-circle bg-color-7">
+                    </div>
+                    <div
+                        class="banner-thumb__shape banner-thumb__shape--third position-absolute start-50 top-50 rounded-circle bg-color-7">
+                    </div>
+                </div>
+                <img class="img-fluid object-fit-cover position-relative" src="./assets/images/banner/banner.png"
+                    alt="banner">
+            </div>
+        </div>
+    </section>
+    <section class="feature-section py-5  bg-color-8">
+        <div class="container py-2 py-sm-5">
+            <div class="section-header text-center mb-4 position-relative">
+                <span class="fs-5 color-3 d-block mb-3 text-uppercase">Features</span>
+                <h2 class="mb-4 fs-1 "><span class="color-1 fw-3">Our Special</span> Features</h2>
+            </div>
+            <div class="row justify-content-center mb-30-none">
+                <div class="col-xl-3 col-md-6 col-sm-10 p-1">
+                    <div
+                        class="feature-item w-100 h-100 py-5 px-4 text-center rounded-3 border-color-7 mb-2 mb-xl-auto mx-0 mx-lg-4">
+                        <div class="w-100 mb-3 d-flex justify-content-center">
+                            <div class="feature-item__icon mb-auto mx-4 rounded-3 p-4 color-3 position-relative">
+                                <div
+                                    class="position-absolute start-50 translate-middle-x top-0 w-100 h-100 rounded-3 bg-color-3 opacity-25">
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-book-open position-relative">
+                                    <path d="M12 7v14" />
+                                    <path
+                                        d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <h6 class="text-capitalize mb-3">Education Services</h6>
+                            <span class="feature-item__shape bg-color-3 d-block w-50 overflow-hidden mb-3 mx-3"></span>
+                            <p class="fs-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                quis
+                                fermentum metus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-10 p-1">
+                    <div
+                        class="feature-item w-100 h-100 py-5 px-4 text-center rounded-3 border-color-7 mb-2 mb-xl-auto mx-0 mx-lg-4">
+                        <div class="w-100 mb-3 d-flex justify-content-center">
+                            <div class="feature-item__icon mb-auto mx-4 rounded-3 p-4 color-1 position-relative">
+                                <div
+                                    class="position-absolute start-50 translate-middle-x top-0 w-100 h-100 rounded-3 bg-color-1 opacity-25">
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-house position-relative">
+                                    <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+                                    <path
+                                        d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <h6 class="text-capitalize mb-3">Online/Offline Class</h6>
+                            <span class="feature-item__shape bg-color-1 d-block w-50 overflow-hidden mb-3 mx-3"></span>
+                            <p class="fs-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                quis
+                                fermentum metus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-10 p-1">
+                    <div
+                        class="feature-item w-100 h-100 py-5 px-4 text-center rounded-3 border-color-7 mb-2 mb-xl-auto mx-0 mx-lg-4">
+                        <div class="w-100 mb-3 d-flex justify-content-center">
+                            <div class="feature-item__icon mb-auto mx-4 rounded-3 p-4 color-5 position-relative">
+                                <div
+                                    class="position-absolute start-50 translate-middle-x top-0 w-100 h-100 rounded-3 bg-color-7">
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-square-user position-relative">
+                                    <rect width="18" height="18" x="3" y="3" rx="2" />
+                                    <circle cx="12" cy="10" r="3" />
+                                    <path d="M7 21v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <h6 class="text-capitalize mb-3">Expert Mentor</h6>
+                            <span class="feature-item__shape bg-color-7 d-block w-50 overflow-hidden mb-3 mx-3"></span>
+                            <p class="fs-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                quis
+                                fermentum metus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-10 p-1">
+                    <div
+                        class="feature-item w-100 h-100 py-5 px-4 text-center rounded-3 border-color-7 mb-2 mb-xl-auto mx-0 mx-lg-4">
+                        <div class="w-100 mb-3 d-flex justify-content-center">
+                            <div class="feature-item__icon mb-auto mx-4 rounded-3 p-4 color-5 position-relative">
+                                <div
+                                    class="position-absolute start-50 translate-middle-x top-0 w-100 h-100 rounded-3 bg-color-5 opacity-25">
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-headset position-relative">
+                                    <path
+                                        d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5Zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3Z" />
+                                    <path d="M21 16v2a4 4 0 0 1-4 4h-5" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <h6 class="text-capitalize mb-3">Lifetime Support</h6>
+                            <span class="feature-item__shape bg-color-5 d-block w-50 overflow-hidden mb-3 mx-3"></span>
+                            <p class="fs-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                quis
+                                fermentum metus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="course-section py-5 bg-color-7 overflow-hidden position-relative bg-color-8">
+        <div class="container-fluid py-5">
+            <div class=" position-absolute top-0 start-0">
+                <img src="./assets/images/course/course-top-shape.png" alt="course">
+            </div>
+            <div class="position-absolute bottom-0 end-0">
+                <img src="./assets/images/course/course-bottom-shape.png" alt="course">
+            </div>
+            <div class="container">
+                <div class="section-header text-center mb-4 position-relative">
+                    <span class="fs-5 color-3 d-block mb-3 text-uppercase">TOP COURSES</span>
+                    <h2 class="mb-4 fs-1"><span class="color-1 fw-3">Featured</span> Online Courses</h2>
+                </div>
+                <div class="row justify-content-center mb-30-none row-gap-4">
+                    <div class="col-xl-4 col-md-6 col-sm-10 d-flex justify-content-center ">
+                        <div class="course-item w-100 rounded-4 border-color-7 bg-color-8 p-3 mt-auto mx-lg-4 mx-0">
+                            <div class="course-item__thumb rounded-4 overflow-hidden w-100">
+                                <a class="d-block" href="#0">
+                                    <img class="w-100 object-fit-contain h-auto" src="./assets/images/course/01.png"
+                                        alt="course">
+                                </a>
+                            </div>
+                            <div class="content pt-3">
+                                <h5 class="title mb-1 fs-4">
+                                    <a class="color-5" href="./course-details.html">Strategic Social Media & Marketing
+                                        Policy</a>
+                                </h5>
+                                <div class="meta-area border-bottom">
+                                    <div
+                                        class="meta d-flex flex-wrap justify-content-between fs-7 text-capitalize pb-2 ">
+                                        <div class="meta-item d-flex align-items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-user-round color-1">
+                                                <circle cx="12" cy="8" r="5" />
+                                                <path d="M20 21a8 8 0 0 0-16 0" />
+                                            </svg>
+                                            <span>Mark Parker</span>
+                                        </div>
+                                        <div class="meta-item d-flex align-items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-book-open-check color-1">
+                                                <path d="M12 21V7" />
+                                                <path d="m16 12 2 2 4-4" />
+                                                <path
+                                                    d="M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-1.3" />
+                                            </svg>
+                                            <span>15 Lessons</span>
+                                        </div>
+                                        <div class="meta-item d-flex align-items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-graduation-cap color-1">
+                                                <path
+                                                    d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
+                                                <path d="M22 10v6" />
+                                                <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
+                                            </svg>
+                                            <span>25 Students</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ratings-area">
+                                    <div class="ratings cl-theme">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <span class="cl-theme-light"><i class="fas fa-star"></i></span>
+                                        <span>(4.9/5.00)</span>
+                                    </div>
+                                    <div class="price cl-1">
+                                        $29.99
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-10 d-flex justify-content-center ">
+                        <div class="course-item w-100 rounded-4 border-color-7 bg-color-8 p-3 mb-auto mx-lg-4 mx-0">
+                            <div class="course-item__thumb rounded-4 overflow-hidden w-100">
+                                <a class="d-block" href="#0">
+                                    <img class="w-100 object-fit-contain h-auto" src="./assets/images/course/02.png"
+                                        alt="course">
+                                </a>
+                            </div>
+                            <div class="content pt-3">
+                                <h5 class="title mb-1 fs-4">
+                                    <a class="color-5" href="./course-details.html">Strategic Social Media & Marketing
+                                        Policy</a>
+                                </h5>
+                                <div class="meta-area border-bottom">
+                                    <div
+                                        class="meta d-flex flex-wrap justify-content-between fs-7 text-capitalize pb-2 ">
+                                        <div
+                                            class="meta-item d-flex align-items-center gap-1 d-flex align-items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-user-round color-1">
+                                                <circle cx="12" cy="8" r="5" />
+                                                <path d="M20 21a8 8 0 0 0-16 0" />
+                                            </svg>
+                                            <span>Mark Parker</span>
+                                        </div>
+                                        <div class="meta-item d-flex align-items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-book-open-check color-1">
+                                                <path d="M12 21V7" />
+                                                <path d="m16 12 2 2 4-4" />
+                                                <path
+                                                    d="M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-1.3" />
+                                            </svg>
+                                            <span>15 Lessons</span>
+                                        </div>
+                                        <div class="meta-item d-flex align-items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-graduation-cap color-1">
+                                                <path
+                                                    d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
+                                                <path d="M22 10v6" />
+                                                <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
+                                            </svg>
+                                            <span>25 Students</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ratings-area">
+                                    <div class="ratings cl-theme">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <span class="cl-theme-light"><i class="fas fa-star"></i></span>
+                                        <span>(4.9/5.00)</span>
+                                    </div>
+                                    <div class="price cl-1">
+                                        $29.99
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-10 d-flex justify-content-center ">
+                        <div class="course-item w-100 rounded-4 border-color-7 bg-color-8 p-3 mb-auto mx-lg-4 mx-0">
+                            <div class="course-item__thumb rounded-4 overflow-hidden w-100">
+                                <a class="d-block" href="#0">
+                                    <img class="w-100 object-fit-contain h-auto" src="./assets/images/course/03.png"
+                                        alt="course">
+                                </a>
+                            </div>
+                            <div class="content pt-3">
+                                <h5 class="title mb-1 fs-4">
+                                    <a class="color-5" href="./course-details.html">Strategic Social Media & Marketing
+                                        Policy</a>
+                                </h5>
+                                <div class="meta-area border-bottom">
+                                    <div
+                                        class="meta d-flex flex-wrap justify-content-between fs-7 text-capitalize pb-2 ">
+                                        <div
+                                            class="meta-item d-flex align-items-center gap-1 d-flex align-items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-user-round color-1">
+                                                <circle cx="12" cy="8" r="5" />
+                                                <path d="M20 21a8 8 0 0 0-16 0" />
+                                            </svg>
+                                            <span>Mark Parker</span>
+                                        </div>
+                                        <div class="meta-item d-flex align-items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-book-open-check color-1">
+                                                <path d="M12 21V7" />
+                                                <path d="m16 12 2 2 4-4" />
+                                                <path
+                                                    d="M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-1.3" />
+                                            </svg>
+                                            <span>15 Lessons</span>
+                                        </div>
+                                        <div class="meta-item d-flex align-items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-graduation-cap color-1">
+                                                <path
+                                                    d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
+                                                <path d="M22 10v6" />
+                                                <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
+                                            </svg>
+                                            <span>25 Students</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ratings-area">
+                                    <div class="ratings cl-theme">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <span class="cl-theme-light"><i class="fas fa-star"></i></span>
+                                        <span>(4.9/5.00)</span>
+                                    </div>
+                                    <div class="price cl-1">
+                                        $29.99
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-10 d-flex justify-content-center ">
+                        <div class="course-item w-100 rounded-4 border-color-7 bg-color-8 p-3 mb-auto mx-lg-4 mx-0">
+                            <div class="course-item__thumb rounded-4 overflow-hidden w-100">
+                                <a class="d-block" href="#0">
+                                    <img class="w-100 object-fit-contain h-auto" src="./assets/images/course/04.png"
+                                        alt="course">
+                                </a>
+                            </div>
+                            <div class="content pt-3">
+                                <h5 class="title mb-1 fs-4">
+                                    <a class="color-5" href="./course-details.html">Strategic Social Media & Marketing
+                                        Policy</a>
+                                </h5>
+                                <div class="meta-area border-bottom">
+                                    <div
+                                        class="meta d-flex flex-wrap justify-content-between fs-7 text-capitalize pb-2 ">
+                                        <div
+                                            class="meta-item d-flex align-items-center gap-1 d-flex align-items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-user-round color-1">
+                                                <circle cx="12" cy="8" r="5" />
+                                                <path d="M20 21a8 8 0 0 0-16 0" />
+                                            </svg>
+                                            <span>Mark Parker</span>
+                                        </div>
+                                        <div class="meta-item d-flex align-items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-book-open-check color-1">
+                                                <path d="M12 21V7" />
+                                                <path d="m16 12 2 2 4-4" />
+                                                <path
+                                                    d="M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-1.3" />
+                                            </svg>
+                                            <span>15 Lessons</span>
+                                        </div>
+                                        <div class="meta-item d-flex align-items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-graduation-cap color-1">
+                                                <path
+                                                    d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
+                                                <path d="M22 10v6" />
+                                                <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
+                                            </svg>
+                                            <span>25 Students</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ratings-area">
+                                    <div class="ratings cl-theme">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <span class="cl-theme-light"><i class="fas fa-star"></i></span>
+                                        <span>(4.9/5.00)</span>
+                                    </div>
+                                    <div class="price cl-1">
+                                        $29.99
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-10 d-flex justify-content-center ">
+                        <div class="course-item w-100 rounded-4 border-color-7 bg-color-8 p-3 mb-auto mx-lg-4 mx-0">
+                            <div class="course-item__thumb rounded-4 overflow-hidden w-100">
+                                <a class="d-block" href="#0">
+                                    <img class="w-100 object-fit-contain h-auto" src="./assets/images/course/05.png"
+                                        alt="course">
+                                </a>
+                            </div>
+                            <div class="content pt-3">
+                                <h5 class="title mb-1 fs-4">
+                                    <a class="color-5" href="./course-details.html">Strategic Social Media & Marketing
+                                        Policy</a>
+                                </h5>
+                                <div class="meta-area border-bottom">
+                                    <div
+                                        class="meta d-flex flex-wrap justify-content-between fs-7 text-capitalize pb-2 ">
+                                        <div
+                                            class="meta-item d-flex align-items-center gap-1 d-flex align-items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-user-round color-1">
+                                                <circle cx="12" cy="8" r="5" />
+                                                <path d="M20 21a8 8 0 0 0-16 0" />
+                                            </svg>
+                                            <span>Mark Parker</span>
+                                        </div>
+                                        <div class="meta-item d-flex align-items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-book-open-check color-1">
+                                                <path d="M12 21V7" />
+                                                <path d="m16 12 2 2 4-4" />
+                                                <path
+                                                    d="M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-1.3" />
+                                            </svg>
+                                            <span>15 Lessons</span>
+                                        </div>
+                                        <div class="meta-item d-flex align-items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-graduation-cap color-1">
+                                                <path
+                                                    d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
+                                                <path d="M22 10v6" />
+                                                <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
+                                            </svg>
+                                            <span>25 Students</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ratings-area">
+                                    <div class="ratings cl-theme">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <span class="cl-theme-light"><i class="fas fa-star"></i></span>
+                                        <span>(4.9/5.00)</span>
+                                    </div>
+                                    <div class="price cl-1">
+                                        $29.99
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-10 d-flex justify-content-center ">
+                        <div class="course-item w-100 rounded-4 border-color-7 bg-color-8 p-3 mb-auto mx-lg-4 mx-0">
+                            <div class="course-item__thumb rounded-4 overflow-hidden w-100">
+                                <a class="d-block" href="#0">
+                                    <img class="w-100 object-fit-contain h-auto" src="./assets/images/course/06.png"
+                                        alt="course">
+                                </a>
+                            </div>
+                            <div class="content pt-3">
+                                <h5 class="title mb-1 fs-4">
+                                    <a class="color-5" href="./course-details.html">Strategic Social Media & Marketing
+                                        Policy</a>
+                                </h5>
+                                <div class="meta-area border-bottom">
+                                    <div
+                                        class="meta d-flex flex-wrap justify-content-between fs-7 text-capitalize pb-2 ">
+                                        <div
+                                            class="meta-item d-flex align-items-center gap-1 d-flex align-items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-user-round color-1">
+                                                <circle cx="12" cy="8" r="5" />
+                                                <path d="M20 21a8 8 0 0 0-16 0" />
+                                            </svg>
+                                            <span>Mark Parker</span>
+                                        </div>
+                                        <div class="meta-item d-flex align-items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-book-open-check color-1">
+                                                <path d="M12 21V7" />
+                                                <path d="m16 12 2 2 4-4" />
+                                                <path
+                                                    d="M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-1.3" />
+                                            </svg>
+                                            <span>15 Lessons</span>
+                                        </div>
+                                        <div class="meta-item d-flex align-items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-graduation-cap color-1">
+                                                <path
+                                                    d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
+                                                <path d="M22 10v6" />
+                                                <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
+                                            </svg>
+                                            <span>25 Students</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ratings-area">
+                                    <div class="ratings cl-theme">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="#ffbb00" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        <span class="cl-theme-light"><i class="fas fa-star"></i></span>
+                                        <span>(4.9/5.00)</span>
+                                    </div>
+                                    <div class="price cl-1">
+                                        $29.99
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="counter-section py-5 position-relative  bg-color-8" id="apply">
+        <div class="bg-color-5 opacity-75 position-absolute top-0 start-0 w-100 h-100"></div>
+        <div class="container position-relative py-5 ">
+            <div class="row">
+                <div class="odo-area col-12 col-lg-6 mb-4 mb-lg-0 overflow-hidden">
+                    <div class="odo-wrap w-100">
+                        <div class="row gap-5">
+                            <div class="odo-item flex flex-grow-1 col-5 mx-2 position-relative">
+                                <div
+                                    class="bg-color-7 position-absolute top-0 start-0 w-100 h-100 opacity-25 rounded-3 border-color-7">
+                                </div>
+                                <div class="odo-in position-relative py-5 text-center">
+                                    <div class="odo-head d-flex justify-content-center gap-1">
+                                        <h2 class="title text-uppercase color-1 m-0 fs-1 odometer" data-odo="60">0</h2>
+                                        <h2 class="title text-uppercase color-1 m-0 fs-1 ">+</h2>
+                                    </div>
+                                    <h5 class="subtitle fw-3 color-6 text-capitalize">Teachers</h5>
+                                </div>
+                            </div>
+                            <div class="flex flex-grow-1 col-5 mx-2 position-relative">
+                                <div
+                                    class="bg-color-7 position-absolute top-0 start-0 w-100 h-100 opacity-25 rounded-3 border-color-7">
+                                </div>
+                                <div class="odo-in position-relative py-5 text-center">
+                                    <div class="odo-head d-flex justify-content-center gap-1">
+                                        <h2 class="title text-uppercase color-1 m-0 fs-1 odometer" data-odo="8">0</h2>
+                                        <h2 class="title text-uppercase color-1 m-0 fs-1 ">k+</h2>
+                                    </div>
+                                    <h5 class="subtitle fw-3 color-6 text-capitalize">Students</h5>
+                                </div>
+                            </div>
+                            <div class="flex flex-grow-1 col-5 mx-2 position-relative">
+                                <div
+                                    class="bg-color-7 position-absolute top-0 start-0 w-100 h-100 opacity-25 rounded-3 border-color-7">
+                                </div>
+                                <div class="odo-in position-relative py-5 text-center">
+                                    <div class="odo-head d-flex justify-content-center gap-1">
+                                        <h2 class="title text-uppercase color-1 m-0 fs-1 odometer" data-odo="75">0</h2>
+                                        <h2 class="title text-uppercase color-1 m-0 fs-1 ">+</h2>
+                                    </div>
+                                    <h5 class="subtitle fw-3 color-6 text-capitalize">Courses</h5>
+                                </div>
+                            </div>
+                            <div class="flex flex-grow-1 col-5 mx-2 position-relative">
+                                <div
+                                    class="bg-color-7 position-absolute top-0 start-0 w-100 h-100 opacity-25 rounded-3 border-color-7">
+                                </div>
+                                <div class="odo-in position-relative py-5 text-center">
+                                    <div class="odo-head d-flex justify-content-center gap-1">
+                                        <h2 class="title text-uppercase color-1 m-0 fs-1 odometer" data-odo="13">0</h2>
+                                        <h2 class="title text-uppercase color-1 m-0 fs-1 ">+</h2>
+                                    </div>
+                                    <h5 class="subtitle fw-3 color-6 text-capitalize">National Awards</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 d-flex justify-content-end">
+                    <div class="apply-form-wrapper overflow-hidden rounded-3 bg-color-6 mx-2">
+                        <h5 class="fw-4 color-4 bg-color-3 w-100 text-uppercase text-center py-3 rounded-top-3">Apply
+                            Now</h5>
+                        <form class="py-4 px-4 w-100">
+                            <div class="mb-3">
+                                <label for="name" class="mb-1 text-capitalize">Full Name</label>
+                                <input
+                                    class="border-color-7 bg-color-7 rounded-1 bg-color-7 border-0 color-5 fw-4 py-2 w-100"
+                                    type="text" id="name" name="name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="mb-1 text-capitalize">Enter Email</label>
+                                <input
+                                    class="border-color-7 bg-color-7 rounded-1 bg-color-7 border-0 color-5 fw-4 py-2 w-100"
+                                    type="text" id="email" name="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="mb-1 text-capitalize">Phone Number</label>
+                                <input
+                                    class="border-color-7 bg-color-7 rounded-1 bg-color-7 border-0 color-5 fw-4 py-2 w-100"
+                                    type="text" id="phone" name="phone">
+                            </div>
+                            <div class="mb-3 mb-0">
+                                <button class="custom-button text-uppercase custom-button--primary w-100 py-2"
+                                    type="submit">submit
+                                    now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="schedule-section py-5 position-relative overflow-x-hidden bg-color-8">
+        <div class="container-fuild py-1 py-lg-5 ">
+            <div class="position-absolute top-0 start-0">
+                <img src="./assets/images/course/course-top-shape.png" alt="course">
+            </div>
+            <div class="position-absolute bottom-0 end-0">
+                <img src="./assets/images/course/course-bottom-shape.png" alt="course">
+            </div>
+            <div class="container">
+                <div
+                    class="slider-header d-flex flex-wrap justify-content-between align-items-center mb-4row mb-3 d-flex justify-content-between">
+                    <div class="section-header col-12 col-lg-6 position-relative">
+                        <span class="fs-5 color-3 d-block text-uppercase">upcoming Events</span>
+                        <h2 class="mb-4 fs-1"><span class="color-1 fw-3">Event </span>Schedule</h2>
+                    </div>
+                    <select class="form-select w-auto col-12 col-lg-6 color-5 bg-color-7 color-5 rounded-pill py-2">
+                        <option value="01">Saturday 15 December 2023</option>
+                        <option value="02">Sunday 16 December 2023</option>
+                        <option value="03">Monday 17 December 2023</option>
+                        <option value="04">Tuesday 18 December 2023</option>
+                        <option value="05">Thursday 19 December 2023</option>
+                    </select>
+                </div>
+                <div class="row mb-30-none">
+                    <div class="col-12">
+                        <div class="schedule-item container shadow-lg position-relative mb-4">
+                            <div
+                                class="schedule-item__inner row position-relative pt-3 pe-0 pe-lg-5 pb-3 rounded-3 bg-color-8 overflow-hidden d-flex flex-wrap align-items-center">
+                                <div class="author-area col-12 col-lg-2 color-5 text-center text-capitalize">
+                                    <div
+                                        class="thumb mt-auto mx-1 rounded-circle overflow-hidden d-flex flex-wrap align-items-center justify-content-center px-2 px-sm-4">
+                                        <img src="./assets/images/schedule/author01.png" alt="schedule">
+                                    </div>
+                                    <div class="content">
+                                        <span class="title">James Milner</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-10">
+                                    <div class="row flex align-items-center">
+                                        <div class="content-area col-12 col-lg-11 ps-0 ps-xl-5 text-center">
+                                            <div class="info"><span><i class="far fa-clock"></i>22:00</span><span
+                                                    class="ms-2">GMT+6</span></div>
+                                            <h5 class="fs-1"><a class="color-5" href="#0">Basic Product Design
+                                                    Concept</a></h5>
+                                        </div>
+                                        <a href="#0"
+                                            class="schedule-item__add-ticket col-12 col-xl-1 fs-1 fw-6 color-7 text-center rounded-3"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-plus">
+                                                <path d="M5 12h14" />
+                                                <path d="M12 5v14" />
+                                            </svg></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="schedule-item container shadow-lg position-relative mb-4">
+                            <div
+                                class="schedule-item__inner row position-relative pt-3 pe-0 pe-lg-5 pb-3 rounded-3 bg-color-8 overflow-hidden d-flex flex-wrap align-items-center">
+                                <div class="author-area col-12 col-lg-2 color-5 text-center text-capitalize">
+                                    <div
+                                        class="thumb mt-auto mx-1 rounded-circle overflow-hidden d-flex flex-wrap align-items-center justify-content-center px-2 px-sm-4">
+                                        <img src="./assets/images/schedule/author02.png" alt="schedule">
+                                    </div>
+                                    <div class="content">
+                                        <span class="title">James Milner</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-10">
+                                    <div class="row flex align-items-center">
+                                        <div class="content-area col-12 col-lg-11 ps-0 ps-xl-5 text-center">
+                                            <div class="info"><span><i class="far fa-clock"></i>22:00</span><span
+                                                    class="ms-2">GMT+6</span></div>
+                                            <h5 class="fs-1"><a class="color-5" href="#0">Typography & Advance
+                                                    Typeface</a></h5>
+                                        </div>
+                                        <a href="#0"
+                                            class="schedule-item__add-ticket col-12 col-xl-1 fs-1 fw-6 color-7 text-center rounded-3"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-plus">
+                                                <path d="M5 12h14" />
+                                                <path d="M12 5v14" />
+                                            </svg></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="schedule-item container shadow-lg position-relative mb-4">
+                            <div
+                                class="schedule-item__inner row position-relative pt-3 pe-0 pe-lg-5 pb-3 rounded-3 bg-color-8 overflow-hidden d-flex flex-wrap align-items-center">
+                                <div class="author-area col-12 col-lg-2 color-5 text-center text-capitalize">
+                                    <div
+                                        class="thumb mt-auto mx-1 rounded-circle overflow-hidden d-flex flex-wrap align-items-center justify-content-center px-2 px-sm-4">
+                                        <img src="./assets/images/schedule/author06.png" alt="schedule">
+                                    </div>
+                                    <div class="content">
+                                        <span class="title">James Milner</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-10">
+                                    <div class="row flex align-items-center">
+                                        <div class="content-area col-12 col-lg-11 ps-0 ps-xl-5 text-center">
+                                            <div class="info"><span><i class="far fa-clock"></i>22:00</span><span
+                                                    class="ms-2">GMT+6</span></div>
+                                            <h5 class="fs-1"><a class="color-5" href="#0">Lunch Break</a></h5>
+                                        </div>
+                                        <a href="#0"
+                                            class="schedule-item__add-ticket col-12 col-xl-1 fs-1 fw-6 color-7 text-center rounded-3"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-plus">
+                                                <path d="M5 12h14" />
+                                                <path d="M12 5v14" />
+                                            </svg></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="schedule-item container shadow-lg position-relative mb-4">
+                            <div
+                                class="schedule-item__inner row position-relative pt-3 pe-0 pe-lg-5 pb-3 rounded-3 bg-color-8 overflow-hidden d-flex flex-wrap align-items-center">
+                                <div class="author-area col-12 col-lg-2 color-5 text-center text-capitalize">
+                                    <div
+                                        class="thumb mt-auto mx-1 rounded-circle overflow-hidden d-flex flex-wrap align-items-center justify-content-center px-2 px-sm-4">
+                                        <img src="./assets/images/schedule/author03.png" alt="schedule">
+                                    </div>
+                                    <div class="content">
+                                        <span class="title">James Milner</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-10">
+                                    <div class="row flex align-items-center">
+                                        <div class="content-area col-12 col-lg-11 ps-0 ps-xl-5 text-center">
+                                            <div class="info"><span><i class="far fa-clock"></i>22:00</span><span
+                                                    class="ms-2">GMT+6</span></div>
+                                            <h5 class="fs-1"><a class="color-5" href="#0">User Persona Creation &
+                                                    Research</a></h5>
+                                        </div>
+                                        <a href="#0"
+                                            class="schedule-item__add-ticket col-12 col-xl-1 fs-1 fw-6 color-7 text-center rounded-3"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-plus">
+                                                <path d="M5 12h14" />
+                                                <path d="M12 5v14" />
+                                            </svg></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="schedule-item container shadow-lg position-relative mb-4">
+                            <div
+                                class="schedule-item__inner row position-relative pt-3 pe-0 pe-lg-5 pb-3 rounded-3 bg-color-8 overflow-hidden d-flex flex-wrap align-items-center">
+                                <div class="author-area col-12 col-lg-2 color-5 text-center text-capitalize">
+                                    <div
+                                        class="thumb mt-auto mx-1 rounded-circle overflow-hidden d-flex flex-wrap align-items-center justify-content-center px-2 px-sm-4">
+                                        <img src="./assets/images/schedule/author04.png" alt="schedule">
+                                    </div>
+                                    <div class="content">
+                                        <span class="title">James Milner</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-10">
+                                    <div class="row flex align-items-center">
+                                        <div class="content-area col-12 col-lg-11 ps-0 ps-xl-5 text-center">
+                                            <div class="info"><span><i class="far fa-clock"></i>22:00</span><span
+                                                    class="ms-2">GMT+6</span></div>
+                                            <h5 class="fs-1"><a class="color-5" href="#0">Human Centre Design
+                                                    Guidline</a></h5>
+                                        </div>
+                                        <a href="#0"
+                                            class="schedule-item__add-ticket col-12 col-xl-1 fs-1 fw-6 color-7 text-center rounded-3"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-plus">
+                                                <path d="M5 12h14" />
+                                                <path d="M12 5v14" />
+                                            </svg></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="schedule-item container shadow-lg position-relative mb-4">
+                            <div
+                                class="schedule-item__inner row position-relative pt-3 pe-0 pe-lg-5 pb-3 rounded-3 bg-color-8 overflow-hidden d-flex flex-wrap align-items-center">
+                                <div class="author-area col-12 col-lg-2 color-5 text-center text-capitalize">
+                                    <div
+                                        class="thumb mt-auto mx-1 rounded-circle overflow-hidden d-flex flex-wrap align-items-center justify-content-center px-2 px-sm-4">
+                                        <img src="./assets/images/schedule/author05.png" alt="schedule">
+                                    </div>
+                                    <div class="content">
+                                        <span class="title">James Milner</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-10">
+                                    <div class="row flex align-items-center">
+                                        <div class="content-area col-12 col-lg-11 ps-0 ps-xl-5 text-center">
+                                            <div class="info"><span><i class="far fa-clock"></i>22:00</span><span
+                                                    class="ms-2">GMT+6</span></div>
+                                            <h5 class="fs-1"><a class="color-5" href="#0">Basic User Experience Design
+                                                    Guideline</a>
+                                            </h5>
+                                        </div>
+                                        <a href="#0"
+                                            class="schedule-item__add-ticket col-12 col-xl-1 fs-1 fw-6 color-7 text-center rounded-3"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-plus">
+                                                <path d="M5 12h14" />
+                                                <path d="M12 5v14" />
+                                            </svg></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="instructor-section py-5 bg-color-7">
+        <div class="container py-5">
+            <div class="section-header text-center mb-4 position-relative">
+                <span class="fs-5 color-3 d-block mb-3 text-uppercase">our teachers</span>
+                <h2 class="mb-4 fs-1"><span class="color-1 fw-3">Awesome </span>Instructors</h2>
+            </div>
+            <div class="row justify-content-center mb-30-none">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="instructor-item mt-auto mx-4">
+                        <div
+                            class="instructor-item__thumb w-100 d-flex justify-content-center rounded-circle my-0 mx-auto">
+                            <a href="#0"><img src="./assets/images/instructor/01.png" alt="instructor"
+                                    class="img-fluid rounded-circle"></a>
+                        </div>
+                        <div
+                            class="instructor-content position-relative mt-auto mx-0 py-3 px-2 bg-color-6 shadow text-center">
+                            <h6 class="fw-4 mx-0 mb-1 text-uppercase"><a class="color-5" href="#0">SANDRA RILEY</a></h6>
+                            <span class="details">TEACHER</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="instructor-item mt-auto mx-4">
+                        <div
+                            class="instructor-item__thumb w-100 d-flex justify-content-center rounded-circle my-0 mx-auto">
+                            <a href="#0"><img src="./assets/images/instructor/02.png" alt="instructor"
+                                    class="img-fluid rounded-circle"></a>
+                        </div>
+                        <div
+                            class="instructor-content position-relative mt-auto mx-0 py-3 px-2 bg-color-6 shadow text-center">
+                            <h6 class="fw-4 mx-0 mb-1 text-uppercase"><a class="color-5" href="#0">Alison Bekar</a></h6>
+                            <span class="details">TEACHER</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="instructor-item mt-auto mx-4">
+                        <div
+                            class="instructor-item__thumb w-100 d-flex justify-content-center rounded-circle my-0 mx-auto">
+                            <a href="#0"><img src="./assets/images/instructor/03.png" alt="instructor"
+                                    class="img-fluid rounded-circle"></a>
+                        </div>
+                        <div
+                            class="instructor-content position-relative mt-auto mx-0 py-3 px-2 bg-color-6 shadow text-center">
+                            <h6 class="fw-4 mx-0 mb-1 text-uppercase"><a class="color-5" href="#0">Frank Armany</a></h6>
+                            <span class="details">TEACHER</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="instructor-item mt-auto mx-4">
+                        <div
+                            class="instructor-item__thumb w-100 d-flex justify-content-center rounded-circle my-0 mx-auto">
+                            <a href="#0"><img src="./assets/images/instructor/04.png" alt="instructor"
+                                    class="img-fluid rounded-circle"></a>
+                        </div>
+                        <div
+                            class="instructor-content position-relative mt-auto mx-0 py-3 px-2 bg-color-6 shadow text-center">
+                            <h6 class="fw-4 mx-0 mb-1 text-uppercase"><a class="color-5" href="#0">Manuel Nuer</a></h6>
+                            <span class="details">TEACHER</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial-section py-5 bg-color-7">
+        <div class="container position-relative">
+            <div class="slider-header d-flex flex-wrap justify-content-between align-items-start mb-4">
+                <div>
+                    <h2 class="mb-4 fs-1"><span class="color-1 fw-3">Our </span>Success Stories</h2>
+                </div>
+
+            </div>
+            <div class="swiper testimoni-swiper mt-5 position-static w-100">
+                <div class="position-absolute top-0 end-0 d-flex flex-wrap justify-content-between gap-2">
+                    <div
+                        class="testimoni-slider__item testimoni-slider__item--prev text-center rounded-circle cursor-pointer color-5 bg-color-7 d-flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-circle-chevron-left">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="m14 16-4-4 4-4" />
+                        </svg>
+                    </div>
+                    <div
+                        class="testimoni-slider__item testimoni-slider__item--next text-center rounded-circle cursor-pointer color-5 bg-color-7 d-flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-circle-chevron-right">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="m10 8 4 4-4 4" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="swiper-wrapper">
+                    <div
+                        class="swiper-slide bg-color-8 py-4 px-3 border border-color-7 position-relative shadow rounded-3">
+                        <div class="rating-area d-flex flex-wrap justify-content-between mb-4">
+                            <div class="ratings cl-theme">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                            </div>
+                            <div class="quote fw-4 fs-5 color-5">
+                                "Best Services"
+                            </div>
+                        </div>
+                        <p class="fs-5">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Donec scelerisque
+                            tortor at neque
+                            viverra posuere. Nam ut tortor viverra, accumsan felis sed, faci lisis est. Donec et mattis
+                            purus. Etiam leo lacus, luctus sit.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="clients d-flex flex-wrap align-items-center">
+                                <div class="thumb rounded-circle">
+                                    <img src="./assets/images/client/client01.png" alt="client"
+                                        class="img-fluid rounded-circle">
+                                </div>
+                                <div class="content ps-3 text-capitalize">
+                                    <h6 class="title m-0 fs-5">Mark Parker</h6>
+                                    <span class="cl-1 fs-sm color-3">CEO Of Fiverr</span>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="#a1a1a1" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide     lucide-message-square-quote">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                                <path d="M8 12a2 2 0 0 0 2-2V8H8" />
+                                <path d="M14 12a2 2 0 0 0 2-2V8h-2" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div
+                        class="swiper-slide bg-color-8 py-4 px-3 border border-color-7 position-relative shadow rounded-3">
+                        <div class="rating-area d-flex flex-wrap justify-content-between mb-4">
+                            <div class="ratings cl-theme">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                            </div>
+                            <div class="quote fw-4 fs-5 color-5">
+                                "Best Services"
+                            </div>
+                        </div>
+                        <p class="fs-5">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Donec scelerisque
+                            tortor at neque
+                            viverra posuere. Nam ut tortor viverra, accumsan felis sed, faci lisis est. Donec et mattis
+                            purus. Etiam leo lacus, luctus sit.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="clients d-flex flex-wrap align-items-center">
+                                <div class="thumb rounded-circle">
+                                    <img src="./assets/images/client/client01.png" alt="client"
+                                        class="img-fluid rounded-circle">
+                                </div>
+                                <div class="content ps-3 text-capitalize">
+                                    <h6 class="title m-0 fs-5">Mark Parker</h6>
+                                    <span class="cl-1 fs-sm color-3">CEO Of Fiverr</span>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="#a1a1a1" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide     lucide-message-square-quote">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                                <path d="M8 12a2 2 0 0 0 2-2V8H8" />
+                                <path d="M14 12a2 2 0 0 0 2-2V8h-2" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div
+                        class="swiper-slide bg-color-8 py-4 px-3 border border-color-7 position-relative shadow rounded-3">
+                        <div class="rating-area d-flex flex-wrap justify-content-between mb-4">
+                            <div class="ratings cl-theme">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                            </div>
+                            <div class="quote fw-4 fs-5 color-5">
+                                "Best Services"
+                            </div>
+                        </div>
+                        <p class="fs-5">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Donec scelerisque
+                            tortor at neque
+                            viverra posuere. Nam ut tortor viverra, accumsan felis sed, faci lisis est. Donec et mattis
+                            purus. Etiam leo lacus, luctus sit.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="clients d-flex flex-wrap align-items-center">
+                                <div class="thumb rounded-circle">
+                                    <img src="./assets/images/client/client01.png" alt="client"
+                                        class="img-fluid rounded-circle">
+                                </div>
+                                <div class="content ps-3 text-capitalize">
+                                    <h6 class="title m-0 fs-5">Mark Parker</h6>
+                                    <span class="cl-1 fs-sm color-3">CEO Of Fiverr</span>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="#a1a1a1" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide     lucide-message-square-quote">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                                <path d="M8 12a2 2 0 0 0 2-2V8H8" />
+                                <path d="M14 12a2 2 0 0 0 2-2V8h-2" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div
+                        class="swiper-slide bg-color-8 py-4 px-3 border border-color-7 position-relative shadow rounded-3">
+                        <div class="rating-area d-flex flex-wrap justify-content-between mb-4">
+                            <div class="ratings cl-theme">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                            </div>
+                            <div class="quote fw-4 fs-5 color-5">
+                                "Best Services"
+                            </div>
+                        </div>
+                        <p class="fs-5">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Donec scelerisque
+                            tortor at neque
+                            viverra posuere. Nam ut tortor viverra, accumsan felis sed, faci lisis est. Donec et mattis
+                            purus. Etiam leo lacus, luctus sit.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="clients d-flex flex-wrap align-items-center">
+                                <div class="thumb rounded-circle">
+                                    <img src="./assets/images/client/client01.png" alt="client"
+                                        class="img-fluid rounded-circle">
+                                </div>
+                                <div class="content ps-3 text-capitalize">
+                                    <h6 class="title m-0 fs-5">Mark Parker</h6>
+                                    <span class="cl-1 fs-sm color-3">CEO Of Fiverr</span>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="#a1a1a1" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide     lucide-message-square-quote">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                                <path d="M8 12a2 2 0 0 0 2-2V8H8" />
+                                <path d="M14 12a2 2 0 0 0 2-2V8h-2" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div
+                        class="swiper-slide bg-color-8 py-4 px-3 border border-color-7 position-relative shadow rounded-3">
+                        <div class="rating-area d-flex flex-wrap justify-content-between mb-4">
+                            <div class="ratings cl-theme">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                            </div>
+                            <div class="quote fw-4 fs-5 color-5">
+                                "Best Services"
+                            </div>
+                        </div>
+                        <p class="fs-5">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Donec scelerisque
+                            tortor at neque
+                            viverra posuere. Nam ut tortor viverra, accumsan felis sed, faci lisis est. Donec et mattis
+                            purus. Etiam leo lacus, luctus sit.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="clients d-flex flex-wrap align-items-center">
+                                <div class="thumb rounded-circle">
+                                    <img src="./assets/images/client/client01.png" alt="client"
+                                        class="img-fluid rounded-circle">
+                                </div>
+                                <div class="content ps-3 text-capitalize">
+                                    <h6 class="title m-0 fs-5">Mark Parker</h6>
+                                    <span class="cl-1 fs-sm color-3">CEO Of Fiverr</span>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="#a1a1a1" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide     lucide-message-square-quote">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                                <path d="M8 12a2 2 0 0 0 2-2V8H8" />
+                                <path d="M14 12a2 2 0 0 0 2-2V8h-2" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div
+                        class="swiper-slide bg-color-8 py-4 px-3 border border-color-7 position-relative shadow rounded-3">
+                        <div class="rating-area d-flex flex-wrap justify-content-between mb-4">
+                            <div class="ratings cl-theme">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="#ffbb00" stroke="#ffbb00" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                            </div>
+                            <div class="quote fw-4 fs-5 color-5">
+                                "Best Services"
+                            </div>
+                        </div>
+                        <p class="fs-5">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Donec scelerisque
+                            tortor at neque
+                            viverra posuere. Nam ut tortor viverra, accumsan felis sed, faci lisis est. Donec et mattis
+                            purus. Etiam leo lacus, luctus sit.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="clients d-flex flex-wrap align-items-center">
+                                <div class="thumb rounded-circle">
+                                    <img src="./assets/images/client/client01.png" alt="client"
+                                        class="img-fluid rounded-circle">
+                                </div>
+                                <div class="content ps-3 text-capitalize">
+                                    <h6 class="title m-0 fs-5">Mark Parker</h6>
+                                    <span class="cl-1 fs-sm color-3">CEO Of Fiverr</span>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="#a1a1a1" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide     lucide-message-square-quote">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                                <path d="M8 12a2 2 0 0 0 2-2V8H8" />
+                                <path d="M14 12a2 2 0 0 0 2-2V8h-2" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sponsor-section pb-5 bg-color-7">
+        <div class="container-fluid pb-5 mb-5">
+            <div class="pb-5 mb-5 pb-sm-0 mb-sm-0">
+                <div class="text-center">
+                    <h4 class="color-1 fw-4 mb-5">As Seen On</h4>
+                </div>
+                <div class="swiper sponsor-swiper">
+                    <div class="swiper-wrapper">
+                        <div
+                            class="swiper-slide sponsor-swiper__item border rounded-3 py-2 d-flex justify-content-center align-items-center overflow-hidden">
+                            <img class="img-fluid object-fit-cover" src="./assets/images/sponsor/01.png" alt="sponsor">
+                        </div>
+                        <div
+                            class="swiper-slide sponsor-swiper__item border rounded-3 py-2 d-flex justify-content-center align-items-center overflow-hidden">
+                            <img class="img-fluid object-fit-cover" src="./assets/images/sponsor/02.png" alt="sponsor">
+                        </div>
+                        <div
+                            class="swiper-slide sponsor-swiper__item border rounded-3 py-2 d-flex justify-content-center align-items-center overflow-hidden">
+                            <img class="img-fluid object-fit-cover" src="./assets/images/sponsor/03.png" alt="sponsor">
+                        </div>
+                        <div
+                            class="swiper-slide sponsor-swiper__item border rounded-3 py-2 d-flex justify-content-center align-items-center overflow-hidden">
+                            <img class="img-fluid object-fit-cover" src="./assets/images/sponsor/04.png" alt="sponsor">
+                        </div>
+                        <div
+                            class="swiper-slide sponsor-swiper__item border rounded-3 py-2 d-flex justify-content-center align-items-center overflow-hidden">
+                            <img class="img-fluid object-fit-cover" src="./assets/images/sponsor/05.png" alt="sponsor">
+                        </div>
+                        <div
+                            class="swiper-slide sponsor-swiper__item border rounded-3 py-2 d-flex justify-content-center align-items-center overflow-hidden">
+                            <img class="img-fluid object-fit-cover" src="./assets/images/sponsor/01.png" alt="sponsor">
+                        </div>
+                        <div
+                            class="swiper-slide sponsor-swiper__item border rounded-3 py-2 d-flex justify-content-center align-items-center overflow-hidden">
+                            <img class="img-fluid object-fit-cover" src="./assets/images/sponsor/02.png" alt="sponsor">
+                        </div>
+                        <div
+                            class="swiper-slide sponsor-swiper__item border rounded-3 py-2 d-flex justify-content-center align-items-center overflow-hidden">
+                            <img class="img-fluid object-fit-cover" src="./assets/images/sponsor/03.png" alt="sponsor">
+                        </div>
+                        <div
+                            class="swiper-slide sponsor-swiper__item border rounded-3 py-2 d-flex justify-content-center align-items-center overflow-hidden">
+                            <img class="img-fluid object-fit-cover" src="./assets/images/sponsor/04.png" alt="sponsor">
+                        </div>
+                        <div
+                            class="swiper-slide sponsor-swiper__item border rounded-3 py-2 d-flex justify-content-center align-items-center overflow-hidden">
+                            <img class="img-fluid object-fit-cover" src="./assets/images/sponsor/05.png" alt="sponsor">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer pt-5 pt-sm-0 position-relative">
+        <div class="bg-color-5 position-absolute top-0 start-0 w-100 h-100"></div>
+        <div class="support position-absolute top-0 start-50 translate-middle w-100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 col-sm-10 my-1">
+                        <div
+                            class="support__support-item p-4 d-flex flex-wrap align-items-center pe-auto bg-color-8 shadow-2 rounded-3 w-100 h-100">
+                            <div
+                                class="support__support-item__icon support__support-item__icon--one position-relative p-2 fs-1 text-center me-2">
+                                <div
+                                    class="support__support-item__overlay support__support-item__overlay--one position-absolute top-0 start-0 w-100 h-100 rounded-3">
+                                </div>
+
+                                <div class="p-2 position-relative d-flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-phone-call">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                                        <path d="M14.05 2a9 9 0 0 1 8 7.94" />
+                                        <path d="M14.05 6A5 5 0 0 1 18 10" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div>
+                                <h5 class="color-1">+216 499 49 47</h5>
+                                <span class="color-5 opacity-50">Free Support Line</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10 my-1">
+                        <div
+                            class="support__support-item p-4 d-flex flex-wrap align-items-center pe-auto bg-color-8 shadow-2 rounded-3 w-100 h-100">
+                            <div
+                                class="support__support-item__icon support__support-item__icon--two position-relative p-2 fs-1 text-center me-2">
+                                <div
+                                    class="support__support-item__overlay support__support-item__overlay--two position-absolute top-0 start-0 w-100 h-100 rounded-3">
+                                </div>
+
+                                <div class="p-2 position-relative d-flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-headset">
+                                        <path
+                                            d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5Zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3Z" />
+                                        <path d="M21 16v2a4 4 0 0 1-4 4h-5" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div>
+                                <h5 class="color-1">Support Center</h5>
+                                <span class="color-5 opacity-50">365 days full support</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10 my-1">
+                        <div
+                            class="support__support-item p-4 d-flex flex-wrap align-items-center pe-auto bg-color-8 shadow-2 rounded-3 w-100 h-100">
+                            <div
+                                class="support__support-item__icon support__support-item__icon--three position-relative p-2 fs-1 text-center me-2">
+                                <div
+                                    class="support__support-item__overlay support__support-item__overlay--three position-absolute top-0 start-0 w-100 h-100 rounded-3">
+                                </div>
+
+                                <div class="p-2 position-relative d-flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-radio">
+                                        <path d="M4.9 19.1C1 15.2 1 8.8 4.9 4.9" />
+                                        <path d="M7.8 16.2c-2.3-2.3-2.3-6.1 0-8.5" />
+                                        <circle cx="12" cy="12" r="2" />
+                                        <path d="M16.2 7.8c2.3 2.3 2.3 6.1 0 8.5" />
+                                        <path d="M19.1 4.9C23 8.8 23 15.1 19.1 19" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div>
+                                <h5 class="color-1">Live Support</h5>
+                                <span class="color-5 opacity-50">Write Online Now</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content overflow-hidden container position-relative">
+            <div class="position-absolute top-0 start-0">
+                <img src="./assets/images/course/course-top-shape.png" alt="course">
+            </div>
+            <div class="position-absolute  bottom-0 end-0">
+                <img src="./assets/images/course/course-bottom-shape.png" alt="course">
+            </div>
+            <div class="container pt-5 mt-5">
+                <div class="container pt-5 px-5 border-bottom border-color-7">
+                    <div class="row pt-5">
+                        <div class="col-xl-3 col-md-6 col-sm-10 footer-widget widget-link">
+                            <h5 class="title text-capitalize position-relative pb-3 color-2 mb-4 fs-3 color-6">Talk to
+                                Us</h5>
+                            <ul>
+                                <li class="d-flex flex-wrap mb-2 fs-5 color-7 ">
+                                    <a class="color-7" href="#0">About us</a>
+                                </li>
+                                <li class="d-flex flex-wrap mb-2 fs-5 color-7 ">
+                                    <a class="color-7" href="#0">Registration</a>
+                                </li>
+                                <li class="d-flex flex-wrap mb-2 fs-5 color-7 ">
+                                    <a class="color-7" href="#0">Blog</a>
+                                </li>
+                                <li class="d-flex flex-wrap mb-2 fs-5 color-7 ">
+                                    <a class="color-7" href="#0">Events</a>
+                                </li>
+                                <li class="d-flex flex-wrap mb-2 fs-5 color-7 ">
+                                    <a class="color-7" href="#0">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-sm-10 footer-widget widget-link">
+                            <h5 class="title  text-capitalize position-relative pb-3 color-2 mb-4 fs-3 color-6">
+                                Information</h5>
+                            <ul>
+                                <li class="d-flex flex-wrap mb-2 fs-5 color-7 ">
+                                    <a class="color-7" href="#0">Membership</a>
+                                </li>
+                                <li class="d-flex flex-wrap mb-2 fs-5 color-7 ">
+                                    <a class="color-7" href="#0">Purchase guide</a>
+                                </li>
+                                <li class="d-flex flex-wrap mb-2 fs-5 color-7 ">
+                                    <a class="color-7" href="#0">Privacy policy</a>
+                                </li>
+                                <li class="d-flex flex-wrap mb-2 fs-5 color-7 ">
+                                    <a class="color-7" href="#0">Terms of service</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-sm-10 footer-widget widget-link">
+                            <h5 class="title  text-capitalize position-relative pb-3 color-2 mb-4 fs-3 color-6">Support
+                            </h5>
+                            <ul>
+                                <li class="d-flex flex-wrap mb-2 fs-5 color-7 ">
+                                    <a class="color-7" href="#0">Documentation</a>
+                                </li>
+                                <li class="d-flex flex-wrap mb-2 fs-5 color-7 ">
+                                    <a class="color-7" href="#0">FAQs</a>
+                                </li>
+                                <li class="d-flex flex-wrap mb-2 fs-5 color-7 ">
+                                    <a class="color-7" href="#0">Condition</a>
+                                </li>
+                                <li class="d-flex flex-wrap mb-2 fs-5 color-7 ">
+                                    <a class="color-7" href="#0">Release Status</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-sm-10 footer-widget widget-info">
+                            <h5 class="title  text-capitalize position-relative pb-3 color-2 mb-4 fs-3 color-6">Contact
+                                Us</h5>
+                            <ul>
+                                <li class="d-flex flex-wrap mb-2 fs-5 color-7 ">
+                                    <div class="content">
+                                        <span>12/A, Hamilton City Way, Newyork, US</span>
+                                    </div>
+                                </li>
+                                <li class="d-flex flex-wrap mb-2 fs-5 color-7 ">
+                                    <div class="content">
+                                        <a class="color-7" href="Tel:+880551251558">+8987 5675 754 6</a>
+                                        <a class="color-7" href="Tel:+880551251558">+8987 5675 754 6</a>
+                                    </div>
+                                </li>
+                                <li class="d-flex flex-wrap mb-2 fs-5 color-7 ">
+                                    <div class="content">
+                                        <a class="color-7" href="Mailto:info@exampleweb.com">info@exampleweb.com</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-bottom border-color-7 py-5 ">
+                    <h5 class="color-6 mb-4 fs-4">Subscribe Newsletter</h5>
+                    <div class="row">
+                        <div class="col-md-7">
+                            <form class="content__form position-relative">
+
+                                <div class="bg-color-7 opacity-25 position-absolute top-0 start-0 w-100 h-100"></div>
+
+                                <input class="position-relative bg-transparent border-color-7 color-8 rounded-2 py-3
+                                 px-4 w-100" type="text" placeholder="Enter Your Email" name="email">
+                                <div class="position-absolute top-50 end-0 translate-middle-y p-2 h-100">
+                                    <button
+                                        class="bg-color-1 color-2 fw-3 text-uppercase shadow-2 px-3 h-100 rounded-2 border-0"
+                                        type="submit">Subscribe Now</button>
+                                </div>
+
+                            </form>
+                        </div>
+                        <div class="col-3"></div>
+                        <div class="col-md-2">
+                            <div class="thumb">
+                                <a href="./index.html">
+                                    <img class="img-fluid object-fit-cover"
+                                        src="./assets/images/footer/footer-bottom.png" alt="footer">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-area d-flex justify-content-between align-items-center pt-4 px-2 color-7 ">
+                    <div>
+                        <p>&copy; Copyright 2023. All Rights Reserved.</p>
+                    </div>
+                    <div>
+                        <ul class="d-flex flex-wrap list-unstyled">
+                            <li class="p-2">
+                                <a class="text-center d-block rounded-circle bg-color-5 color-2 p-2 ratio-1x1"
+                                    href="#0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook">
+                                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                                            fill="currentColor" />
+                                    </svg></a>
+                            </li>
+                            <li class="p-2">
+                                <a class="text-center d-block rounded-circle bg-color-5 color-6 p-2 ratio-1x1"
+                                    href="#0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter">
+                                        <path
+                                            d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
+                                    </svg></a>
+                            </li>
+                            <li class="p-2">
+                                <a class="text-center d-block rounded-circle bg-color-5 color-6 p-2 ratio-1x1"
+                                    href="#0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram">
+                                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                                    </svg></a>
+                            </li>
+                            <li class="p-2">
+                                <a class="text-center d-block rounded-circle bg-color-5 color-6 p-2 ratio-1x1"
+                                    href="#0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                        <rect width="4" height="12" x="2" y="9" />
+                                        <circle cx="4" cy="4" r="2" />
+                                    </svg></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./dist/js/home-v1.js"></script>
+</body>
+
+</html>
